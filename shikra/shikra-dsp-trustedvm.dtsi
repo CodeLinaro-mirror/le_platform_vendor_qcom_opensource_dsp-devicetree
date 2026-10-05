@@ -19,7 +19,6 @@
 		iommus = <&apps_smmu 0x20B 0x0>;
 		memory-region = <&fastrpc_gen_pool_region>;
 		qcom,iommu-faults = "stall-disable", "HUPCF";
-		dma-coherent;
 		qcom,iova-best-fit;
 		qcom,iova-max-align-shift = <9>; /* Set MAX alignment to 2 MB*/
 		qrtr-gen-pool = <&fastrpc_compute_cb1>;
